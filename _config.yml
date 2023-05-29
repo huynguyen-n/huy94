@@ -36,6 +36,7 @@ permalink:          /:title
 timezone:           Asia/Ho_Chi_Minh
 mathjax:            true
 social_share_previews: true
+google_analytics:   G-71FW8BMFNK
 
 # Build Settings
 highlighter:        rouge
