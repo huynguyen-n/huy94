@@ -89,7 +89,6 @@ blockquote {
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: bounce;
   a {
-    background: #ddd url("logo_wrapper.png");
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -104,14 +103,13 @@ blockquote {
     box-sizing: border-box;
     &:hover,
     &:focus {
-      background: #f14e32;
+      background: #dedede;
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
       display: inline-block !important;
     }
     .logo-avatar {
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
@@ -372,6 +370,13 @@ section {
     }
   }
 }
+.fa {
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
   }
@@ -404,3 +409,14 @@ section {
     -webkit-transform: none;
   }
 }
+@keyframes pound {
+  to { 
+    transform: scale(1.1)
+  }
+}
+@-webkit-keyframes pound {
+  to { 
+    transform: scale(1.1)
+  }
+}
+  
