@@ -1,0 +1,37 @@
+title: Huy Nguyen's space
+description: A place you can have more information about me
+logo_url: 'https://avatars.githubusercontent.com/u/21701724?v=4'
+author_name: Huy Nguyen
+email: huynguyennhat@pm.me
+twitter_username: __huynguyen
+github_username: huynguyen-n
+url: 'https://huy94.me'
+baseurl: huy94.me
+permalink: '/:title/'
+timezone: Asia/Ho_Chi_Minh
+mathjax: true
+social_share_previews: true
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: ':compressed'
+exclude:
+  - README.md
+  - Gemfile
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'null'
+  - scope:
+      type: pages
+    values:
+      layout: page
+  - scope:
+      type: posts
+    values:
+      layout: post
