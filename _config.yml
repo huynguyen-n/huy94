@@ -30,9 +30,9 @@ twitter_username:   __huynguyen
 github_username:    huynguyen-n
 
 # Site Settings
-url:                https://huynguyen-n.github.io
+url:                https://huy94.me
 baseurl:            
-permalink:          /:title/
+permalink:          /:title
 timezone:           Asia/Ho_Chi_Minh
 mathjax:            true
 social_share_previews: true
